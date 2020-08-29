@@ -4,7 +4,7 @@
   "description": "This is a testing repository for testing integration methods and Travis CI",
   "main": "test.js",
   "scripts": {
-    "test": "mocha test.spec.js"
+    "test": "mocha index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/BenYoss/TravisTest#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "express": "^4.17.1",
     "mocha": "^8.1.3"
   }
 }
